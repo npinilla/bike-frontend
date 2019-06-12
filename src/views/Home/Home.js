@@ -32,6 +32,7 @@ class Home extends Component{
       );
       button.innerHTML = "Ver por minuto";
     }else{
+      lastUpdate = null;
       API.get('/usage').then(result =>
         this.setState(() => ({
           usage: result.data,
