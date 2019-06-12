@@ -21,7 +21,7 @@ class StationList extends Component{
       <div>
         <h2>Lista de estaciones</h2>
         <ul>
-          {stations.map(station => (<StationDetail station={station} />))}
+          {stations.map(station => (<StationDetail station={station} key={station.id}/>))}
         </ul>
       </div>
     )
