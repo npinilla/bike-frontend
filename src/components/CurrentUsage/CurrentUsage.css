@@ -1,0 +1,15 @@
+.usageText{
+  text-align: center;
+  margin: 0;
+}
+
+.usageNumber{
+  text-align: center;
+  margin: 0;
+}
+
+.usageSummary{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
